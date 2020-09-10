@@ -1,0 +1,4 @@
+All files are downloaded using wget (thus completing task 1)
+
+The script is set to compress al files older than a week under the ./home folder (this includes subfolders).
+Also created a helper script that decompresses all the compressed files.
