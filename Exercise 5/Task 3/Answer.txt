@@ -1,0 +1,8 @@
+Something was wierd with the flyttjpg.sh script. For some reason it would not run on my system, it just returned: 'Syntax error: end of file unexpected (expecting "fi")'.
+I got it to run once, but then (without changing anythin) it would not run again.
+
+No matter, the problem with the rydd.sh script is that it will scan the 'jpg' folder for .jpg files, and then put them in a subfolder called 'jpg'.
+After multiple runs, This would result in there being a lot of 'jpg' subfolders in the 'jpg' folder.
+
+I fixed this proplem by altering the find command in rydd.sh. The command now excludes any folders named 'jpg'.
+The new script is called 'newRydd.sh'
