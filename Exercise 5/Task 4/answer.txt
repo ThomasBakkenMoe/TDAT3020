@@ -1,0 +1,1 @@
+The copyTxt.sh script searches through the home folder (including subfolders) and creates a copy of any txt files
