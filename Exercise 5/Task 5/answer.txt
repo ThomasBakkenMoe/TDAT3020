@@ -1,0 +1,4 @@
+`` allows us to put the output from a command into a string.
+
+For example "echo my name is `whoami`" will replace `whoami` with the output of whoami.
+In my case the output would be "my name is thomasbm".
