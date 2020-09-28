@@ -1,0 +1,11 @@
+Flag 0: ^FLAG^aa3d0521e14b7b59a824669501d43e34f16bd650fbb9dfd1c411f32584775f16$FLAG$
+	Kom meg inn på en side som var Forbidden ved å navigere til den via å endre URLen når man er på rediger-siden.
+
+Flag 1: ^FLAG^5a7fa3fc257a146bec79a46b4d582db0ea7a10fe810b173c454c6b49325549b9$FLAG$
+	Legg til en ' etter sidetallet i URL når man redigerer en side. ' er en escape-character i SQL.
+
+Flag 2: ^FLAG^76fc29a243f72bae33e8e6c88cb7e3596e35578f22436db872b11e75b789d4e9$FLAG$
+	Script injection i navnefeltet i edit page: <script>alert(0);</script>
+
+Flag 3: ^FLAG^9e3866d650d5fc47c0e4032a6dc3d87b2af324e8d7e5b17610727766158ed049$FLAG$
+	Laget en knapp med en alert i onClick ved å redigere body til en side.
