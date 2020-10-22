@@ -28,6 +28,6 @@ if __name__ == '__main__':
 
     print("Z_9^(-1)")
 
-    z9_inverted = np.linalg.inv(z9)
+    z9_inverted = np.linalg.inv(z9)*np.linalg.det(a)
 
     print(z9_inverted)
